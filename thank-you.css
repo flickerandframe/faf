@@ -1,14 +1,15 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 974px;
+  min-height: 818px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 965px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-layout-cell-1 {
   background-image: none;
+  min-height: 931px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -47,48 +48,35 @@
   padding: 6px 31px 6px 30px;
 }
 
-.u-section-1 .u-image-1 {
-  background-image: url("images/_DSC2098.jpg");
-  background-position: 50% 50%;
-}
-
-.u-section-1 .u-container-layout-2 {
-  padding: 30px 60px;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 811px;
+    min-height: 803px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 940px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 811px;
-  }
-
-  .u-section-1 .u-image-1 {
-    min-height: 811px;
+    min-height: 907px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 805px;
+    min-height: 811px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    min-height: 811px;
+    width: 720px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 811px;
   }
 
   .u-section-1 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .u-section-1 .u-image-1 {
-    min-height: 621px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -96,36 +84,32 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1229px;
+    min-height: 987px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    min-height: 506px;
+    width: 540px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 50px;
     padding-right: 50px;
   }
-
-  .u-section-1 .u-image-1 {
-    min-height: 932px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 768px;
+    min-height: 747px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -2px;
-    margin-bottom: 60px;
-  }
-
-  .u-section-1 .u-image-1 {
-    min-height: 587px;
+    min-height: 56px;
+    width: 340px;
   }
 }
 
