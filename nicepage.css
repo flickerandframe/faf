@@ -42214,28 +42214,12 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 0;
   }
 }
-@media (max-width: 1199px) {
-  .u-header .u-text-1 {
-    width: auto;
-    margin-left: auto;
-  }
 
-  .u-header .u-image-1 {
-    margin-left: 53px;
-  }
-}
 
 @media (max-width: 991px) {
   .u-header .u-text-1 {
     font-size: 3rem;
-    margin-top: 17px;
-    margin-right: 95px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -78px;
-    margin-bottom: 12px;
-    margin-left: 42px;
+    margin-left: 205px;
   }
 }
 
@@ -42246,14 +42230,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     font-size: 1rem;
-    margin-top: 42px;
-    margin-right: auto;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -52px;
-    margin-bottom: 15px;
-    margin-left: 24px;
+    margin-left: 154px;
   }
 }
 @media (max-width: 575px) {
@@ -42267,15 +42244,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-1 {
-    margin-top: 28px;
-  }
-
-  .u-header .u-image-1 {
-    width: 52px;
-    height: 52px;
-    margin-top: -38px;
-    margin-bottom: 15px;
-    margin-left: 21px;
+    margin-left: 97px;
   }
 }
 .u-header .u-btn-1, .u-header .u-btn-1:before, .u-header .u-btn-1 > .u-container-layout:before {

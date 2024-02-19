@@ -1,0 +1,34 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 815px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 91px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 66px auto 0;
+}
+
+.u-section-1 .u-social-icons-1 {
+  height: 102px;
+  min-height: 16px;
+  width: 214px;
+  min-width: 42px;
+  margin: 59px auto 60px;
+}
+
+.u-section-1 .u-icon-1 {
+  color: rgb(85, 172, 238) !important;
+  height: 102px;
+}
+
+.u-section-1 .u-icon-2 {
+  color: rgb(197, 54, 164) !important;
+  height: 102px;
+}
