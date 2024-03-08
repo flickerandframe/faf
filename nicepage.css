@@ -43185,24 +43185,24 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-2 {
-  min-height: 133px;
-}
-
-.u-header .u-image-1 {
-  width: 103px;
-  height: 103px;
-  margin: 15px auto 0 0;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  min-height: 110px;
 }
 
 .u-header .u-text-1 {
   font-weight: 700;
   font-size: 3.75rem;
-  margin: -99px auto 19px;
+  margin: 7px auto 0;
+}
+
+.u-header .u-image-1 {
+  width: 88px;
+  height: 88px;
+  margin: -88px auto 15px 0;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 1199px) {
   .u-header .u-social-icons-1 {
@@ -43220,44 +43220,43 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    margin-left: 78px;
-  }
-
   .u-header .u-text-1 {
     width: auto;
-    margin-right: 152px;
+  }
+
+  .u-header .u-image-1 {
+    margin-left: 82px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-header .u-image-1 {
-    margin-left: 49px;
-  }
-
   .u-header .u-text-1 {
     font-size: 3rem;
-    margin-top: -89px;
-    margin-right: 100px;
-    margin-bottom: 29px;
+    margin-top: 17px;
+    margin-right: 98px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -78px;
+    margin-left: 48px;
   }
 }
 
 @media (max-width: 767px) {
   .u-header .u-sheet-2 {
-    min-height: 140px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: 19px;
-    margin-left: 35px;
+    min-height: 122px;
   }
 
   .u-header .u-text-1 {
     font-size: 1.5rem;
-    margin-top: -70px;
+    margin-top: 42px;
     margin-right: auto;
-    margin-bottom: 51px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -59px;
+    margin-bottom: 21px;
+    margin-left: 41px;
   }
 }
 @media (max-width: 575px) {
@@ -43267,17 +43266,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-2 {
-    min-height: 112px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: 5px;
-    margin-left: -19px;
+    min-height: 89px;
   }
 
   .u-header .u-text-1 {
     font-size: 1.25rem;
-    margin: -67px 45px 40px 103px;
+    margin-top: 29px;
+    margin-right: 42px;
+    margin-left: 106px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -56px;
+    margin-bottom: 5px;
+    margin-left: 15px;
   }
 }
 .u-header .u-btn-1, .u-header .u-btn-1:before, .u-header .u-btn-1 > .u-container-layout:before {
