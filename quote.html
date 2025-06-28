@@ -182,33 +182,33 @@
 
           if (rushDays >= 30) {
             rushcost = 0;
-            rush.textContent = `Rush Multiplier: ${rushDays} days out = $0 (No Rush)`;
+            rush.textContent = `Rush Multiplier: ${rushDays} days out = $0.00 (No Rush)`;
           } else if (rushDays >= 14) {
             rushcost = 50;
-            rush.textContent = `Rush Multiplier: ${rushDays} days out = $50`;
+            rush.textContent = `Rush Multiplier: ${rushDays} days out = $50.00`;
           } else if (rushDays >= 7) {
             rushcost = 100;
-            rush.textContent = `Rush Multiplier: ${rushDays} days out = $100`;
+            rush.textContent = `Rush Multiplier: ${rushDays} days out = $100.00`;
           } else if (rushDays >= 3) {
             rushcost = 200;
-            rush.textContent = `Rush Multiplier: ${rushDays} days out = $200`;
+            rush.textContent = `Rush Multiplier: ${rushDays} days out = $200.00`;
           } else if (rushDays > 1) {
             rushcost = 400;
-            rush.textContent = `Rush Multiplier: ${rushDays} days out = $400`;
+            rush.textContent = `Rush Multiplier: ${rushDays} days out = $400.00`;
           } else if (rushDays == 1) {
             rushcost = 500;
-            rush.textContent = `Rush Multiplier: ${rushDays} days out = $500`;
+            rush.textContent = `Rush Multiplier: ${rushDays} days out = $500.00`;
           } else {
             rush.textContent = "Invalid rush date.";
             return;
           }
 
           let milageCost = 0;
-          if (distanceMiles > 300) {
-            milageCost = distanceMiles * 1;
-            resultElement.textContent = `Price Per Mile (From Dayton, Ohio): ${distanceMiles.toFixed(0)} miles * $1 = $${milageCost.toFixed(2)}`;
-          } else if (distanceMiles < 300) {
-            milageCost = distanceMiles * 0.5;
+          if (distanceMiles.toFixed(0) > 300) {
+            milageCost = distanceMiles.toFixed(0) * 1;
+            resultElement.textContent = `Price Per Mile (From Dayton, Ohio): ${distanceMiles.toFixed(0)} miles * $1.00 = $${milageCost.toFixed(2)}`;
+          } else if (distanceMiles.toFixed(0) < 300) {
+            milageCost = distanceMiles.toFixed(0) * 0.5;
             resultElement.textContent = `Price Per Mile (From Dayton, Ohio): ${distanceMiles.toFixed(0)} miles * $0.50 = $${milageCost.toFixed(2)}`;
           }
           
@@ -217,8 +217,8 @@
           const hightotal = total + total/5;
 
           // Output
-          photo.textContent = `Photography Rate: ${photoInput} hours * $150 = $${photocost.toFixed(2)}`;
-          video.textContent = `Video Rate: ${videoInput} hours * $200 = $${videocost.toFixed(2)}`;
+          photo.textContent = `Photography Rate: ${photoInput} hours * $150.00 = $${photocost.toFixed(2)}`;
+          video.textContent = `Video Rate: ${videoInput} hours * $200.00 = $${videocost.toFixed(2)}`;
           
           
           totalElement.textContent = `Estimated Total Range: $${lowtotal.toFixed(2)} - $${hightotal.toFixed(2)}`;
