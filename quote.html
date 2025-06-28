@@ -205,8 +205,8 @@
 
           let milageCost = 0;
           if (distanceMiles > 300) {
-            milageCost = distanceMiles * 2;
-            resultElement.textContent = `Price Per Mile (From Dayton, Ohio): ${distanceMiles.toFixed(0)} miles * $2 = $${milageCost.toFixed(2)}`;
+            milageCost = distanceMiles * 1;
+            resultElement.textContent = `Price Per Mile (From Dayton, Ohio): ${distanceMiles.toFixed(0)} miles * $1 = $${milageCost.toFixed(2)}`;
           } else if (distanceMiles < 300) {
             milageCost = distanceMiles * 0.5;
             resultElement.textContent = `Price Per Mile (From Dayton, Ohio): ${distanceMiles.toFixed(0)} miles * $0.50 = $${milageCost.toFixed(2)}`;
